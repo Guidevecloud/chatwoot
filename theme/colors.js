@@ -1,6 +1,4 @@
 const {
-  blue,
-  blueDark,
   green,
   greenDark,
   yellow,
@@ -15,18 +13,18 @@ const {
 
 export const colors = {
   woot: {
-    25: blue.blue2,
-    50: blue.blue3,
-    75: blue.blue4,
-    100: blue.blue5,
-    200: blue.blue7,
-    300: blue.blue8,
-    400: blueDark.blue11,
-    500: blueDark.blue10,
-    600: blueDark.blue9,
-    700: blueDark.blue8,
-    800: blueDark.blue6,
-    900: blueDark.blue2,
+    25: '#F5F7FF',
+    50: '#EBF0FF',
+    75: '#D6E0FF',
+    100: '#B8CAFF',
+    200: '#8CA8FF',
+    300: '#607EFF',
+    400: '#3D5AFF',
+    500: '#1A3CFF',
+    600: '#1432DB',
+    700: '#0E26B7',
+    800: '#091A93',
+    900: '#040E6F',
   },
   green: {
     50: greenDark.green12,
@@ -226,7 +224,7 @@ export const colors = {
     },
 
     black: '#000000',
-    brand: '#000000',
+    brand: '#1A3CFF',
     background: 'rgb(var(--background-color) / <alpha-value>)',
     'input-background': 'rgba(var(--background-input-box))',
     surface: {
