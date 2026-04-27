@@ -32,8 +32,8 @@ const count = computed(() =>
     :to="to"
     :title="label"
     :class="{
-      'text-n-slate-12 bg-n-alpha-2 font-medium': isActive && !hasActiveChild,
-      'text-n-slate-12 font-medium': hasActiveChild,
+      'text-n-brand bg-n-brand/10 font-medium': isActive && !hasActiveChild,
+      'text-n-brand font-medium': hasActiveChild,
       'text-n-slate-11 hover:bg-n-alpha-2': !isActive && !hasActiveChild,
     }"
     @click.stop="emit('toggle')"
@@ -59,7 +59,7 @@ const count = computed(() =>
         v-if="dynamicCount && !expandable"
         class="rounded-md capitalize text-xs leading-5 font-medium text-center outline outline-1 px-1 flex-shrink-0"
         :class="{
-          'text-n-slate-12 outline-n-slate-6': isActive,
+          'text-n-brand outline-n-brand/30': isActive,
           'text-n-slate-11 outline-n-strong': !isActive,
         }"
       >
